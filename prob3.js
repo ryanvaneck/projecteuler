@@ -6,8 +6,8 @@
 function isPrime(number){
     if(number%2==0)
 	return false;
-    var sqrt = Math.ceil(Math.sqrt(number));
-    for(var i=3;i<sqrt;i+=2){
+    var sqrt = Math.floor(Math.sqrt(number));
+    for(var i=3;i<=sqrt;i+=2){
 	if(number%i==0)
 	    return false;
     }
