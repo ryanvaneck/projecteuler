@@ -24,3 +24,4 @@ def normalize(string_value1, string_value2):
     while len(string_value2) < len(string_value1):
         string_value2 = '0' + string_value2
     return string_value1, string_value2
+
